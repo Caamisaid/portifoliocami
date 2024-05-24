@@ -1,0 +1,179 @@
+*{ margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+}
+
+.background{
+background-size:cover;
+background-position:center;
+height:100vh;
+width:100%;
+}
+
+.flex{
+display: flex;
+}
+
+/* ESTILO DO CABEÇARIO */
+nav{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 45px;
+  padding-left: 8%;
+  padding: right 8%;
+}
+
+nav h2{
+    color:#FFFF00;
+    font-size: 30px;
+    cursor: pointer;           
+}
+
+span{
+   color:#a52a2a; 
+}
+
+
+header a{
+  color:#dc143c;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#FFFF00;
+transform: scale(1.05);
+}
+
+header nav ul { list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+  padding: 10% 25px;
+  
+}
+
+/* Botão */
+
+header .bnt button{
+
+background-color: #FF0000;
+font-weight: 600;
+padding: 10px 40px;
+border-radius: 30px;
+cursor: pointer;
+}
+
+header .bnt button:hover{
+box-shadow: 0px 0px 8px #FF0000
+}
+
+h2.titulo{
+color:#FFFF;
+font-size: 35px;
+text-align: center;
+}
+
+habilidades .Habilidades-box{
+color:#fff;
+padding: 40%;
+}
+
+h3{
+color:#fff;
+}
+
+/* topo do site */
+section.topo-do-site{
+  padding: 40px 4%;
+  gap: 90px;
+}
+section.topo-site.flex{
+  align-items: center;
+  justify-content: center;
+}
+
+.Topo-site h1{
+color: #ffff;
+font-size: 42px;
+line-height: 40px;
+}
+
+.Topo-site p{
+  color: #ffff
+}
+
+/* IMAGEM */
+.Topo-site img{
+height: 280px;
+right: 40px;
+display: block;
+margin-left: auto;
+position: relative;
+animation: flutuar 2s ease-in-out infinite alternate;
+}
+ 
+@keyframes flutuar{
+  0%{
+    top:0;
+  }
+  100%{
+    top: 30px;
+  }
+}
+
+.img-sobre img{
+bottom: 20px;
+right: 20px;
+width: 285px;
+margin: 10px;
+border-radius: 30px;
+animation: none;
+}
+
+/* HABILIDADES*/
+section.Habilidades{
+padding: 40px; 4%;
+}
+
+/*Sobre*/
+section.sobre{
+display: flex;
+padding: 20px;
+max-width: 800px;
+margin: 0 auto;
+justify-content: space-between;
+align-items:center;
+gap: 60px;
+}
+
+.txt-site{
+color: #fff;
+text-align: right;
+flex: 1;
+}
+
+.txt-site h2{
+text-align: center;
+font-size: 40px;
+line-height: 30px;
+margin-bottom: 40px;
+}
+
+.txt-site h2 span{
+display: block;
+}
+
+.txt-site p{
+margin:5px; 0;
+text-align: justify;
+}
+
